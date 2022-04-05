@@ -6,26 +6,30 @@
   <link rel="stylesheet" href="./reset.css">
   <link rel="stylesheet" href="./style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 </head>
 <body>
   <div class="background">
-  <div class="initial-header">
-  <img class="logo-img" src="./images/logo.svg">
-  <div class="">
-  <section>
-  <h1>WE'RE <strong><b>COMING SOON</b></strong></h1>
-  <p>Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.</p>
-
-  Email Address
-</section>
-</div>
-</div>
-<img class="woman-img" src="./images/hero-desktop.jpg">
+    <img class="logo-img" src="./images/logo.svg">
+    <img class="woman-img-cut" src="./images/hero-mobile.jpg">
+    <div class="custom-cards">
+      <div class="initial-header">
+        <section class="text1">
+          <h1> WE'RE <strong><b>COMING SOON</b></strong></h1>
+          <p>Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our launch deals.</p>
+          <div class="button">
+            <input class="custom-button" type="email" onclick="buton()" placeholder="Email Address">
+            <img class="arrow-img" src="./images/icon-arrow.svg">
+          </div>
+        </section>
+      </div>
+    <img class="woman-img" src="./images/hero-desktop.jpg">
+    </div>
+    <div class="footer">
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
@@ -33,5 +37,6 @@
     </p>
   </footer>
 </div>
+  </div>
 </body>
 </html>
