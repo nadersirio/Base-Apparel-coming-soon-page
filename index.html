@@ -12,33 +12,33 @@
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 </head>
 <body>
-  <div class="background">
-    <div class="custom-cards">
-      <div class="initial-header">
-        <section class="text1">
-          <img class="logo-img" src="./images/logo.svg">
-          <img class="woman-img-cut" src="./images/hero-mobile.jpg">
-          <h1> WE'RE <strong><b>COMING SOON</b></strong></h1>
-          <p>Hello fellow shoppers! We're currently building our new fashion store.
-          Add your email below to stay up-to-date with announcements and our launch deals.</p>
-          <div class="button-customize">
-            <input class="custom-button" type="email" placeholder="Email Address">
-            <button class="button" onclick="buton()">
-            <img class="arrow-img" src="./images/icon-arrow.svg">
-            </button>
-          </div>
-        </section>
-      </div>
-      <img class="woman-img" src="./images/hero-desktop.jpg">
-    </div>
-    <div class="footer">
-      <footer>
-        <p class="attribution">
-          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-          Coded by <a href="#">Your Name Here</a>.
-        </p>
-      </footer>
-    </div>
-  </div>
+	<main>
+		<section class="header__content">
+			<img alt="Base Apparel" class="header__logo-img" src="./images/logo.svg">
+			<img aria-hidden alt="Woman with orange shirt" class="header__image-mobile" src="./images/hero-mobile.jpg">
+			<div class="header__text-content">
+					<h1>
+						WE'RE <br/>
+						<b>COMING <br/>
+						SOON</b>
+					</h1>
+					<p>Hello fellow shoppers! We're currently building our new fashion store.
+					Add your email below to stay up-to-date with announcements and our launch deals.</p>
+					<form class="header__form">
+						<input class="header__form-input--email" type="email" placeholder="Email Address">
+						<button type="submit" onclick="button()">
+							<img aria-hidden alt="Submit form" class="header__form--arrow-img" src="./images/icon-arrow.svg">
+						</button>
+					</form>
+			</div>
+		</section>
+		<img alt="Woman with orange shirt" class="header__image-desktop" src="./images/hero-desktop.jpg">
+	</main>
+	<footer> 
+		<p class="footer__attribution">
+			Challenge by <a title="Frontend Mentor" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+			Coded by <a title="Náder W. S. Sírio" href="https://github.com/nadersirio">Náder W. S. Sírio</a>.
+		</p>
+	</footer>
 </body>
 </html>
