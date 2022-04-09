@@ -56,17 +56,34 @@ main {
     justify-content: flex-start;
 }
 
+.header__form-input--email:focus {
+    outline: none !important;
+    border-color: pink;
+    box-shadow: 0 0 10px pink;
+}
+
 button {
     border-radius: 45px;
     background: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
-    border: hsl(0, 80%, 86%) solid 1px;
+    border: hsl(0, 74%, 74%) solid 2px;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
     margin-left: -45px;
     padding: 0 35px 0 35px;
 }
 
-button:active {
+button:hover {
     background: linear-gradient(to right, hsl(0, 100%, 98%), hsl(0, 80%, 86%));
-    transition: 1s;
+    padding: 0 40px 0 40px;
+    margin:  -5px 0 -5px -50px;
+    transition transform: 200ms, border 200ms;
+    border: solid hsl(0, 74%, 74%) 1px;
+}
+
+button:active {
+    border-color: pink;
+    box-shadow: 0 0 10px pink;
 }
 
 ::placeholder {
@@ -89,12 +106,13 @@ footer {
     font-size: 11px;
 }
 
-/* Versão Mobile -------------------------- */
+/* Versão Mobile ------------------------------------------------------------------------*/
 @media (max-width: 700px) {
 
 main {
     flex-direction: column;
     align-items: center;
+    height: 110vh;
 }
 
 .header__image-desktop {
@@ -136,6 +154,9 @@ main {
     padding: 15px 100px 15px 20px;
 }
 
+footer {
+    margin: 50px 0 10px 0;
+}
 
 
 }
