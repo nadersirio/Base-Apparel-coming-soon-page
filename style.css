@@ -98,6 +98,10 @@ button:active {
     padding: 15px 160px 15px 25px;
 }
 
+.borderError {
+    border: solid 2px red !important;
+}
+
 .header__image-desktop {
 }
 
