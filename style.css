@@ -43,7 +43,7 @@ main {
     color: hsl(0, 6%, 24%);
 }
 
-p {
+.header__content p {
     max-width: 405px;
     min-width: 405px;
     line-height: 1.5;
@@ -112,14 +112,14 @@ footer {
 }
 
 .header_imgError {
-    margin: 0 0 40px -120px;
+    margin: 0 0 40px -85px;
 }
 
 .header_result {
     color: red;
     font-size: 14px;
     position: absolute;
-    margin: 75px 0 0 25px;
+    margin: 80px 0 0 25px;
     font-weight: 900;
 }
 
@@ -132,7 +132,7 @@ footer {
 main {
     flex-direction: column;
     align-items: center;
-    height: 110vh;
+    height: 115vh;
 }
 
 .header__image-desktop {
@@ -179,8 +179,6 @@ footer {
 }
 
 .header_result {
-    margin: 75px 0 0 -156px;
+    margin: 80px 0 0 -156px;
 }
-
-
 }
