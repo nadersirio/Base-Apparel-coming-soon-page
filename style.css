@@ -23,7 +23,7 @@ main {
 .header__text-content {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 .header__logo-img {
@@ -47,7 +47,7 @@ main {
     max-width: 405px;
     min-width: 405px;
     line-height: 1.5;
-    margin: 15px 0 15px;
+    margin: 25px 0 25px;
     color: hsl(0, 93%, 68%);
 }
 
@@ -117,9 +117,8 @@ footer {
 
 .header_result {
     color: red;
+    margin: 0 0 0 27px;
     font-size: 14px;
-    position: absolute;
-    margin: 80px 0 0 25px;
     font-weight: 900;
 }
 
@@ -185,6 +184,7 @@ footer {
 }
 
 .header_result {
-    margin: 80px 0 0 -156px;
+    margin: 0 163px 0 0;
 }
+
 }
