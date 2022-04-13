@@ -71,6 +71,7 @@ button {
     border-left: 0;
     margin-left: -45px;
     padding: 0 35px 0 35px;
+    box-shadow:hsl(0, 80%, 86%) 0 15px 30px -5px;
 }
 
 button:hover {
