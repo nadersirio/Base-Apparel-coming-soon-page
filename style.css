@@ -7,6 +7,7 @@ body {
 main {
     background-image: url(./images/bg-pattern-desktop.svg);
     background-repeat: no-repeat;
+    background-size: auto;
     display: flex;
     justify-content: space-between;
     height: 100vh;
@@ -126,8 +127,6 @@ footer {
 .invisible {
     display: none;
 }
-
-
 
 
 
